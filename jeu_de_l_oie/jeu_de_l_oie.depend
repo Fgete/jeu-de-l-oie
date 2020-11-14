@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605358871 source:c:\users\franc\desktop\cours\algo\git\jeu-de-l-oie\jeu_de_l_oie\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

@@ -1,0 +1,20 @@
+	JEU DE L'OIE
+
+Eléments à programmer :
+ - état de la partie (menu - en cours - gagné)
+	Il y aura 3 écrans principaux
+ - joueur (place [0; 66])
+	Le joueur aura un entier global en emplacement
+ - déplacement (2 dés 6)
+	une fonction qui ajoute à l'emplacement [(Random.Range(0,6) + 1)+(Random.Range(0,6) + 1)]
+	si on dépasse 66, la position revient à p = [66 - (p - 66)]
+ - analyse de la case
+	une fonction analyse la l'emplacement du joueur et appel le fonction appropriée
+ - condition de victoire (arrivé sur case 66)
+	si la case est 66, alors victoire (écran victoire)
+ - retour en arrière sur case 66 (retour du nombre de déplacement restant)
+	(compris dans le déplacement)
+ - double le déplacement (cases multiples de 9 sauf 63)
+	si la case est multiple de 9 et différente de 63, alors déplacement à nouveau
+ - mort case 58 (retour à 0)
+	si case 58, alors p = 0
